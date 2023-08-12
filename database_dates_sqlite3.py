@@ -47,7 +47,7 @@ def load_dates():
     conn.close()
     return dates
 
-# Rest of your code...
+# 
 
 # Create the database and table
 create_database()
@@ -58,8 +58,7 @@ delete_date(6)
 existing_dates = load_dates()
 print("these are the existing database dates ",existing_dates)
 
-# Create buttons for different options
-# ...
 
-# Run the Tkinter event loop
+
+
 #root.mainloop()
