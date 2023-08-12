@@ -6,7 +6,7 @@ from threading import Thread
 import array
 
 def countdown(header, date, label):
-    # Convert the input date string to a struct_time object
+    
 
     # Convert the input date string to a struct_time object
     target_time = time.strptime(date, '%d/%m/%Y')
